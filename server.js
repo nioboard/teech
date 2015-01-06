@@ -11,21 +11,9 @@ mongoose.connect('mongodb://localhost:27017/teech');
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
-var Cat = mongoose.model('Cat', { name: String });
-
-var kitty = new Cat({ name: 'Zildjian' });
-kitty.save(function (err) {
-  if (err){
-  	console.log(err)
-  }
-  else
-   console.log('meow');
-});
-
-
 //serve the index file in the first 
 router.get('/', function(req,res){
-	res.sendFile(__dirname + "/src/index.html");
+	res.sendFile(__dirname + "/lib/index.html");
 });
 
 
