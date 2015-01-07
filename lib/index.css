@@ -1,0 +1,12 @@
+.modal-content{
+	position: relative;
+	margin-top: 50%;
+}
+.welcome{
+	position: relative;
+	text-align: center;
+}
+#loginModal{
+	background-image: url(http://wallpaperfx.com/view_image/rustic-living-room-1280x720-wallpaper-15140.jpg);
+	background-repeat: round;
+}
