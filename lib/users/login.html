@@ -1,6 +1,5 @@
   
   <div id="loginModal" class="modal show" tabindex="-1" aria-hidden="true">
-    <h1 class = "welcome">Welcome to teech - start learn better</h1>
     <div class="modal-dialog">
     <div class="modal-content">
         <div class="modal-header">
@@ -9,15 +8,18 @@
         <div class="modal-body">
             <form class="form col-md-12 center-block">
               <div class="form-group">
-                <input id='username' type="text" class="form-control input-lg" placeholder="Username">
+                <input id='email' type="text" class="form-control input-lg" placeholder="Email">
               </div>
               <div class="form-group">
                 <input id='password' type="password" class="form-control input-lg" placeholder="Password">
               </div>
               <div class="form-group">
-                <button id="signin" class="btn-primary btn-lg btn-block signin">Sign In</button>
-                <button class="btn-primary btn-lg btn-block">don't have user yet ?</button>
+                <button id='signin' class="btn-primary btn-lg btn-block">sign in</button>
+                <button id='signup' class="btn-primary btn-lg btn-block">don't have user yet ?</button>
               </div>
+              <a class="btn btn-block btn-social btn-facebook" href='auth/facebook-authentication'>
+                <i class="fa fa-facebook"></i> Sign in with facebook
+              </a>
             </form>
         </div>
         <div class="modal-footer">

@@ -1,19 +1,31 @@
 <!DOCTYPE html>
 <html>
 	<head>
+
+		<!--remove facebook addition #_- -->
+		<script type="text/javascript">
+    		if (window.location.hash && window.location.hash == '#_=_') {
+        	window.location.hash = '';
+   			 }
+		</script>
+
+
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="lib/index.css">
 
 
 		<title>teech</title>
 	</head>
 	<body>
+		<nav></nav>
 		<main></main>
 
 		<script src='lib/bower_components/jquery/dist/jquery.js'></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 		<script src="lib/bower_components/underscore/underscore.js"></script>
 		<script src='lib/bower_components/backbone/backbone.js'></script>
+		<script src='lib/bower_components/handlebars/handlebars.js'></script>
 		<script src='lib/bower_components/requirejs/require.js' data-main='lib/index'></script>
 	</body>
 </html>
