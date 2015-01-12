@@ -22,6 +22,7 @@
     "passport-local": "~1.0.0",
     "connect-mongo": "~0.5.3",
     "q": "~1.1.2",
-    "mpromise": "~0.5.5"
+    "mpromise": "~0.5.5",
+    "passport-facebook": "~1.0.3"
   }
 }

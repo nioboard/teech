@@ -1,9 +1,0 @@
-var ids = {
-	'facebook': {
- 		'clientID': '694491160669155',
- 		'clientSecret': '2a7efe29e52a061b3866824a0f21ee81',
- 		'callbackURL': 'http://localhost:1337/auth/facebook/callback'
-		}
-	}
-
-module.exports = ids;
